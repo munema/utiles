@@ -26,7 +26,7 @@ change and rewrite suffix ('dataset/img1.jpeg','.png')
 img = crop_base_mask_img('dataset/img1.png', 'dataset/img1_mask.png')
 ```
 
-## change_color_img(img_path, color, min_sv = 0.5)
+## change_color_img
 - change image color 
 - RGB → HSV → change color operation (base on color angle(H) and param min_sv (SV)) → RGB
 
