@@ -46,7 +46,7 @@ color_lst['purple'] = [128,0,128]
 color_lst['green'] = [0,128,0]
 
 len_color = len(color_lst)
-for i in tqdm(range(len_color)):
+for i in tqdm(range(10)):
     train_inx = np.where(y_train == i)[0]
     np.random.seed(seed = 32)
     np.random.shuffle(train_inx)
@@ -78,7 +78,7 @@ for i in tqdm(range(len_color)):
             rgb = np.where(rgb <= 255, rgb, 255)
             rgb = np.where(rgb >= 0, rgb, 0)
             color_img = ImageOps.colorize(img, black=(0, 0, 0), white=rgb).resize((WIDTH,HEIGHT))
-            color_img.save(f'{output_path}/train/{out_path}/{i}_{k}.jpg')
+            color_img.save(f'{output_path}/train/{out_path}/{i}_{color}_{k}.jpg')
 
         c_test_inx = test_inx[j*len_test:(j+1)*len_test]
         c_test_inx = test_inx[j*len_test:(j+1)*len_test]
@@ -89,5 +89,5 @@ for i in tqdm(range(len_color)):
             rgb = np.where(rgb <= 255, rgb, 255)
             rgb = np.where(rgb >= 0, rgb, 0)
             color_img = ImageOps.colorize(img, black=(0, 0, 0), white=rgb).resize((WIDTH,HEIGHT))
-            color_img.save(f'{output_path}/test/{out_path}/{i}_{k}.jpg')
+            color_img.save(f'{output_path}/test/{out_path}/{i}_{color}_{k}.jpg')
             
