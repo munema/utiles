@@ -32,7 +32,7 @@ def crop_base_mask_img(original_img_path, mask_image_path):
 
 # change color
 # RGB → HSV → change color operation (base on color angle(H) and param min_sv (SV)) → RGB
-def change_color_img(img_path, color, min_sv = 0.5):
+def change_color_img(img_path, color, min_sv = 0.5, color_noise = True):
     img = Image.open(img_path)
     h, s, v = img.convert("HSV").split()
     p = min_sv
@@ -62,6 +62,18 @@ def change_color_img(img_path, color, min_sv = 0.5):
     if lower < 0:
         lower += 360
     higher = color_p + color_dct[color]['range']
+
+    if color_noise:
+        color_p = np.random.normal(color_p, color_dct[color]['range']/2)
+        if color_p < 0:
+        color_p += 360
+        elif color_p > 360:
+        color_p -= 360
+
+    # nomalization [0,360]→[0,255]
+    color_p *= 255/360
+    higher *= 255/360
+    lower *= 255/360
 
     img_colored = Image.merge(
         "HSV",
