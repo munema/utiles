@@ -17,3 +17,42 @@ python make_colored_minist.py --output_path='.' --output_label='nubmer'
 ```
 
 ## Output Examples
+# mak_colored_mnist.py
+## Requirments
+- Numpy
+- Tensorflow
+- PIL
+- tqdm
+
+## Argument
+- --output_path (str) : Name for dataset path (Default : '.')
+- --output_label (str) : 'number' or 'color' (Default : 'number')
+    - If you choose 'number', output folder (label) is 0, 1, 2, ...
+    = If you choose 'color', output folder (label) is red, bule, green, yellow
+
+## Usage
+```
+python make_colored_minist.py --output_path='.' --output_label='nubmer'
+```
+
+## Output Examples
+# mak_colored_mnist.py
+## Requirments
+- Numpy
+- Tensorflow
+- PIL
+- tqdm
+
+## Argument
+- --output_path (str) : Name for dataset path (Default : '.')
+- --output_label (str) : 'number' or 'color' (Default : 'number')
+    - If you choose 'number', output folder (label) is 0, 1, 2, ...
+    - If you choose 'color', output folder (label) is red, bule, green, yellow
+
+## Usage
+```
+python make_colored_minist.py --output_path='.' --output_label='nubmer'
+```
+
+## Output Examples
+<img src="https://user-images.githubusercontent.com/28722930/84001874-7b7ff180-a9a2-11ea-9bcc-6d9fc0bc8346.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84001900-83d82c80-a9a2-11ea-8e1a-b1fdececc156.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84001911-876bb380-a9a2-11ea-9680-387c97520717.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84001921-8b97d100-a9a2-11ea-9981-c486978c35c9.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84001931-8fc3ee80-a9a2-11ea-9177-cb52471a757a.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84001998-ab2ef980-a9a2-11ea-9b46-d547faaa58b7.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002013-b124da80-a9a2-11ea-9ba3-c0e96ec4220a.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002026-b550f800-a9a2-11ea-934d-951dcaaf798b.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002046-bbdf6f80-a9a2-11ea-86c9-eda8fce9935e.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002051-beda6000-a9a2-11ea-92ff-e641f0d1f417.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002090-d3b6f380-a9a2-11ea-8e1d-52d4244da1e9.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002104-d87ba780-a9a2-11ea-9154-d231e2f845b9.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002128-e03b4c00-a9a2-11ea-8e6b-62c5ea6c2fe7.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002136-e3363c80-a9a2-11ea-885e-15af81ca9183.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002143-e8938700-a9a2-11ea-9136-81b4857ea11d.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002198-0103a180-a9a3-11ea-90d2-6718cfc1054b.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002213-07921900-a9a3-11ea-81a4-c4d79fe01fd4.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002220-0b25a000-a9a3-11ea-8573-35cc19b9c048.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002229-111b8100-a9a3-11ea-81e0-09e566025344.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002245-1678cb80-a9a3-11ea-9b4d-53869be8263a.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002300-2bedf580-a9a3-11ea-94ef-e373c7e39c98.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002307-301a1300-a9a3-11ea-8028-3b4d36b5fe47.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002320-34dec700-a9a3-11ea-9bd9-b4fd696bc21c.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002325-37412100-a9a3-11ea-94e0-5938105dc267.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002331-3a3c1180-a9a3-11ea-8f60-2a0231662732.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002345-40ca8900-a9a3-11ea-9895-3118f49604f9.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002361-458f3d00-a9a3-11ea-952e-dd1ddde7e818.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002374-4922c400-a9a3-11ea-91ad-b4dd631c419b.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002388-4fb13b80-a9a3-11ea-8f73-4bd537914398.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002394-52ac2c00-a9a3-11ea-9a6b-15c8e3321abe.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002512-82f3ca80-a9a3-11ea-9a21-9de7ba076fdf.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002527-86875180-a9a3-11ea-9da6-be300f272dab.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002533-88e9ab80-a9a3-11ea-89dd-6acd67e8bef9.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002540-8c7d3280-a9a3-11ea-9c41-26cea4373199.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002551-9010b980-a9a3-11ea-9ec5-569dea53a1a3.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002568-9737c780-a9a3-11ea-97b1-1e7f775f74c2.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002578-9d2da880-a9a3-11ea-8e6f-b8a037d0d1cf.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002590-a0289900-a9a3-11ea-99be-4c8beb33f134.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002605-a6b71080-a9a3-11ea-93f9-0aef89fc6f82.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002638-b6cef000-a9a3-11ea-97ab-9639e15df865.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002729-d5cd8200-a9a3-11ea-8f2b-c55f3df4ff83.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002739-da923600-a9a3-11ea-966b-24673ae10bc6.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002751-de25bd00-a9a3-11ea-8241-3200b2ed59c6.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002756-e120ad80-a9a3-11ea-85b3-c707afcf2622.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002765-e41b9e00-a9a3-11ea-8be8-9703501dee4c.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002782-eed63300-a9a3-11ea-8b57-0da008365536.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002791-f39ae700-a9a3-11ea-86c4-233e2c5e1da0.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002796-f72e6e00-a9a3-11ea-8832-7d4792247bdb.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002806-fb5a8b80-a9a3-11ea-86db-b7733abd904e.jpg" width="160px"><img src="https://user-images.githubusercontent.com/28722930/84002812-fe557c00-a9a3-11ea-83bf-009c414e36da.jpg" width="160px">
