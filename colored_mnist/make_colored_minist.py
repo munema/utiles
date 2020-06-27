@@ -78,7 +78,7 @@ for i in tqdm(range(10)):
             rgb = np.where(rgb <= 255, rgb, 255)
             rgb = np.where(rgb >= 0, rgb, 0)
             color_img = ImageOps.colorize(img, black=(0, 0, 0), white=rgb).resize((WIDTH,HEIGHT))
-            color_img.save(f'{output_path}/train/{out_path}/{i}_{color}_{k}.jpg')
+            color_img.save(f'{output_path}/test/{out_path}/{i}_{color}_{k}.jpg')
 
         c_test_inx = test_inx[j*len_test:(j+1)*len_test]
         c_test_inx = test_inx[j*len_test:(j+1)*len_test]
